@@ -5,19 +5,19 @@ import * as React from 'react';
 const App = () => {
   const stories = [
     {
-      title: 'React',
+      title: 'React test test',
       url: 'https://reactjs.org/',
       author: 'Jordan Walke',
       num_comments: 3,
-      points: 4,
+      points: 7,
       objectID: 0,
     },
     {
-      title: 'Redux',
+      title: 'Redux test test',
       url: 'https://redux.js.org/',
       author: 'Dan Abramov, Andrew Clark',
       num_comments: 4,
-      points: 5,
+      points: 8,
       objectID: 1,
     },
   ]
