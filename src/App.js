@@ -16,7 +16,7 @@ const App = () => {
       title: 'Redux',
       url: 'https://redux.js.org/',
       author: 'Dan Abramov, Andrew Clark',
-      num_comments: 2,
+      num_comments: 4,
       points: 5,
       objectID: 1,
     },
