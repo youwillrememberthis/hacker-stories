@@ -3,13 +3,10 @@ import * as React from 'react';
 
 
 const App = () => {
-<<<<<<< HEAD
-=======
   //console.log('App renders');
 
   
 
->>>>>>> master
   const stories = [
     {
       title: 'React test test',
@@ -27,9 +24,6 @@ const App = () => {
       points: 4,
       objectID: 1,
     },
-<<<<<<< HEAD
-  ]
-=======
   ];
 
   // A
@@ -39,17 +33,12 @@ const App = () => {
   };
 
   
->>>>>>> master
 
   return (
     <div>
       <h1>Hacker Stories testing ignore</h1>
       
-<<<<<<< HEAD
-      <Search />
-=======
       <Search onSearch={handleSearch} />
->>>>>>> master
 
       <hr />
       
@@ -59,32 +48,21 @@ const App = () => {
   );
 }
 
-<<<<<<< HEAD
-const Search = () => {
-=======
 const Search = (props) => {
   //console.log("Search renders");
   
->>>>>>> master
   const [searchTerm, setSearchTerm] = React.useState('');
 
   const handleChange = (event) => {
     setSearchTerm(event.target.value);
-<<<<<<< HEAD
-=======
 
     //B
     props.onSearch(event);
->>>>>>> master
   };
 
   return (
     <div>
-<<<<<<< HEAD
-      <label htmlFor="search">Search</label>
-=======
       <label htmlFor="search">Search: </label>
->>>>>>> master
       <input id="search" type="text" onChange={handleChange} />
 
       <p>
@@ -95,19 +73,12 @@ const Search = (props) => {
 }
 
 const List = (props) => (
-<<<<<<< HEAD
-=======
     
->>>>>>> master
     <ul>
         {props.list.map((item) => (
             <Item key={item.objectID} item={item} />
         ))}
-<<<<<<< HEAD
-      </ul>
-=======
     </ul>
->>>>>>> master
 );
 
 const Item = (props) => (
